@@ -5,7 +5,7 @@ import board
 import busio
 import digitalio
 import pwmio
-from class_spec import serial_dilution
+from fnc1 import serial_dilution
 
 print("Connecting sensor")
 myi2c = busio.I2C(scl=board.GP5, sda=board.GP4)
