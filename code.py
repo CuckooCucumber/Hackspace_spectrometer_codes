@@ -18,5 +18,5 @@ led_indicator.direction = digitalio.Direction.OUTPUT
 led_indicator.value = True
 
 spec = serial_dilution(sensor = mysensor, led = led_sensor)
-result = spec.final_reading(wavelength = 515, brightness_percent = 40)
+result = spec.final_reading(wavelength = 515, brightness_percentage = 20, sensor_gain = 5)
 led_indicator.value = False
